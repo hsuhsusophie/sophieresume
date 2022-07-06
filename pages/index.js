@@ -21,7 +21,7 @@ export default function Home() {
       <main className={styles.main}>
         <div>
           <nav>
-            <div class="container">
+            <div className="container">
               <a href="#">
                 <h3>Sophie</h3>
               </a>
@@ -40,51 +40,51 @@ export default function Home() {
                 </li>
               </ul>
               <button>
-                <span class="material-symbols-sharp">menu</span>
+                <span className="material-symbols-sharp">menu</span>
               </button>
               <button>
-                <span class="material-symbols-sharp">close</span>
+                <span className="material-symbols-sharp">close</span>
               </button>
             </div>
           </nav>
 
-          <section class="landing">
-            <div class="container">
-              <div class="socials">
-              <a href="https://facebook.com/" target="_blank"><FiFacebook/></a>
-                <a href="https://instagram.com" target="_blank"><BsInstagram/></a>
-               <a href="https:github.com" target="_blank"><FiGithub/></a>
+          <section className="landing">
+            <div className="container">
+              <div className="socials">
+              <a href="https://facebook.com/" ><FiFacebook/></a>
+                <a href="https://instagram.com"><BsInstagram/></a>
+               <a href="https:github.com"><FiGithub/></a>
               </div>
 
-              <div class="info">
-                <h1>Jr.Front-end Web Developer & Traveler</h1>
+              <div className="info">
+                <h1>Jr.Front-end Web Developer and Traveler</h1>
                 <h3>Hello I,m Sophie</h3>
                 <p>
-                  Im a Junior Web Designer and Adventurous Traveler from Taiwan. And I'm very creative and passionate at my work. It's very nice to meet you.
+                  Im a Junior Web Designer and Adventurous Traveler from Taiwan. And Im very creative and passionate at my work. Its very nice to meet you.
                 </p>
                 
               </div>
 
-              <div class="circle--square">
+              <div className="circle--square">
                 <img src="./images/img_pro.png" />
               </div>
             </div>
           </section>
         </div>
 
-        <section class="about" id="about">
+        <section className="about" id="about">
           <h1>About</h1>
-          <div class="container">
-            <div class="image">
+          <div className="container">
+            <div className="image">
               <img src="./images/img_pro.png" />
             </div>
-            <div class="content">
+            <div className="content">
               <p>Name: Sophie Hsu</p>
               <p>Birthday:1993/06/01 </p>
               <p>Nationality: Taiwan</p>
               <p>Education: Tunghai University</p>
                <p>Location: Phillipines</p>
-              <p>Language: Chinese/English/Japanese</p>
+              <p>Language: Chinese/English/Japanese </p>
             </div>
           </div>
         </section>
@@ -93,8 +93,8 @@ export default function Home() {
       <footer className={styles.footer}>
         <a
           href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
+          // target="_blank"
+          // rel="noopener noreferrer"
         >
           Powered by{" "}
           <span className={styles.logo}>
