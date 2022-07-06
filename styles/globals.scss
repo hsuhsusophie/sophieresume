@@ -23,7 +23,7 @@
  --color-dark:grey;
  --color-primary:tomato;
  --color-primary-light:#aaaa;
---color-success:rgb(131, 131, 2);
+--color-success:rgb(243, 170, 12);
 --color-warning:#ffce31;
 
 --transition: all 300ms ease;
@@ -79,6 +79,7 @@ h5{
 
 p{
   line-height: 1.8;
+  font-size: 12px;
 }
 
 .container{
@@ -95,7 +96,7 @@ section{
 section h1{
   text-align: center;
   display: block;
-  margin-bottom: 5rem;
+  margin-bottom: 2rem;
 }
 
 img{
@@ -182,22 +183,22 @@ section.landing{
   display: grid;
   place-items: center;
   position: relative;
-  top: 5rem;
-  padding-bottom: 14rem;
+  top: 2rem;
+  padding-bottom: 12rem;
 
 }
 
 section.landing .container{
   display: grid;
-  grid-template-columns: 5rem auto 28rem;
-  gap: 2rem;
+  grid-template-columns: 3rem auto 28rem;
+  gap: 3rem;
 }
 
 section.landing .socials {
 display: flex;
 flex-direction: column;
-gap: 1.6rem;
-margin-top: 5rem ;
+gap: 1.2rem;
+margin-top: 8rem ;
 }
 
 section.landing .socials a{
@@ -214,7 +215,7 @@ section.landing .socials a{
 }
 
 section.landing .socials a:hover{
-  background-color: white;
+  background-color: var(--color-success);
 }
 
 section.landing.info h1{
@@ -223,10 +224,12 @@ section.landing.info h1{
 }
 
 section.landing.info h3{
-margin:2.4rem 0 1rem;
+
+margin-top: -3rem;
 }
 
 section.landing.info p{
+  
   width: 35rem;
 }
 

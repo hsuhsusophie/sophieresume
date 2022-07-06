@@ -1,7 +1,10 @@
 import Head from "next/head";
 import Image from "next/image";
 import styles from "../styles/Home.module.scss";
-import {RiFacebookCircleLine, } from "react-icons/ri"
+import {FiFacebook, } from "react-icons/fi"
+import {BsInstagram, } from "react-icons/bs"
+import {FiGithub, } from "react-icons/fi"
+
 
 export default function Home() {
   return (
@@ -43,29 +46,20 @@ export default function Home() {
           </nav>
 
           <section class="landing">
-            <RiFacebookCircleLine />
             <div class="container">
               <div class="socials">
-                <a href="https://facebook.com/" target="_blank">
-                  <i class="uil uil-facebook"></i>
-                </a>
-                <a href="https://instagram.com" target="_blank">
-                  <i class="uil uil-instagram-alt"></i>
-                </a>
-                <a href="https:github.com" target="_blank">
-                  <i class="uil uil-github"></i>
-                </a>
+              <a href="https://facebook.com/" target="_blank"><FiFacebook/></a>
+                <a href="https://instagram.com" target="_blank"><BsInstagram/></a>
+               <a href="https:github.com" target="_blank"><FiGithub/></a>
               </div>
 
               <div class="info">
                 <h1>Jr.Front-end Web Developer & Traveler</h1>
                 <h3>Hello I,m Sophie</h3>
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia
-                  numquam vel sequi esse officia? Voluptatum quos magnam nemo
-                  incidunt, dicta voluptate dolor alias itaque porro impedit
-                  beatae asperiores, molestiae voluptas.{" "}
+                  Im a Junior Web Designer and Adventurous Traveler from Taiwan. And I'm very creative and passionate at my work. It's very nice to meet you.
                 </p>
+                
               </div>
 
               <div class="circle--square">
