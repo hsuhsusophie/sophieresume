@@ -79,16 +79,11 @@ export default function Home() {
               <img src="./images/img_pro.png" />
             </div>
             <div class="content">
-              <i class="uil uil-check-circle"></i>
               <p>Name: Sophie Hsu</p>
-              <i class="uil uil-check-circle"></i>
               <p>Birthday:1993/06/01 </p>
-              <i class="uil uil-check-circle"></i>
               <p>Nationality: Taiwan</p>
-              <i class="uil uil-check-circle"></i>
               <p>Education: Tunghai University</p>
-              <i class="uil uil-check-circle"></i> <p>Location: Phillipines</p>
-              <i class="uil uil-check-circle"></i>{" "}
+               <p>Location: Phillipines</p>
               <p>Language: Chinese/English/Japanese</p>
             </div>
           </div>
