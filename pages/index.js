@@ -60,7 +60,7 @@ export default function Home() {
                 <h1>Jr.Front-end Web Developer and Traveler</h1>
                 <h3>Hello I,m Sophie</h3>
                 <p>
-                  Im a Junior Web Designer and Adventurous Traveler from Taiwan. And Im very creative and passionate at my work. Its very nice to meet you.
+                  I'm a Junior Web Designer and Adventurous Traveler from Taiwan. And I'm very creative and passionate at my work. It's very nice to meet you.
                 </p>
                 
               </div>
