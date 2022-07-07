@@ -57,7 +57,7 @@ export default function Home() {
               </div>
 
               <div className="info">
-                <h1>Jr.Front-end Web Developer and Traveler</h1>
+                <h1>Jr.Front-end Web Developer & Traveler</h1>
                 <h3>Hello I,m Sophie</h3>
                 <p>
                   I'm a Junior Web Designer and Adventurous Traveler from Taiwan. And I'm very creative and passionate at my work. It's very nice to meet you.
@@ -84,7 +84,7 @@ export default function Home() {
               <p>Nationality: Taiwan</p>
               <p>Education: Tunghai University</p>
                <p>Location: Phillipines</p>
-              <p>Language: Chinese/English/Japanese </p>
+              <p>Language: Mandarin/English/Japanese </p>
             </div>
           </div>
         </section>
