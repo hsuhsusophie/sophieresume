@@ -56,19 +56,9 @@ export default function Home() {
                <a href="https:github.com" target="_blank"><FiGithub/></a>
               </div>
 
-<<<<<<< Updated upstream
               <div class="info">
                 <h1>Jr.Front-end Web Developer & Traveler</h1>
                 <h3>Hello I,m Sophie</h3>
-=======
-              <div className="info">
-              <div className="home-content">
-              <div className="text-1"></div>
-                <div 
-                <h3>Hello , my name is </h3>
-                <h1>Sophie Hsu</h1>
-                <h3>And I am a Front-End Develoer</h3>
->>>>>>> Stashed changes
                 <p>
                   Im a Junior Web Designer and Adventurous Traveler from Taiwan. And I'm very creative and passionate at my work. It's very nice to meet you.
                 </p>
