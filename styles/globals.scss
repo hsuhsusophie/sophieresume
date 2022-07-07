@@ -59,6 +59,7 @@ h1.h2.h3.h4.h5{
 
 h1{
   font-size: 3.8rem;
+
 }
 
 h2{
@@ -79,7 +80,7 @@ h5{
 
 p{
   line-height: 1.8;
-  font-size: 12px;
+  font-size: 16px;
 }
 
 .container{
@@ -114,8 +115,8 @@ img{
 }
 
 .btn-primary{
-  background:var(--color-white);
-  color: var(--color-white);
+  background:var(--color-success);
+  color: var(--color-success);
 }
 
 .btn:hover{
@@ -172,7 +173,7 @@ nav .container ul li a{
 
 
 nav .container ul li a:hover{
-  background-color: #fff;
+  background-color: var(--color-success);
 }
 
 
@@ -185,12 +186,12 @@ section.landing{
   position: relative;
   top: 2rem;
   padding-bottom: 12rem;
-
+ 
 }
 
 section.landing .container{
   display: grid;
-  grid-template-columns: 3rem auto 28rem;
+  grid-template-columns: 2rem auto 28rem;
   gap: 3rem;
 }
 
@@ -198,7 +199,7 @@ section.landing .socials {
 display: flex;
 flex-direction: column;
 gap: 1.2rem;
-margin-top: 8rem ;
+margin-top: 10rem ;
 }
 
 section.landing .socials a{
@@ -207,8 +208,8 @@ section.landing .socials a{
   color:var(--color-dark);
   padding: 0.3rem;
   border-radius: 50%;
-  height: 2rem;
-  width: 2rem;
+  height: 2.5rem;
+  width: 2.5rem;
   display: flex;
   justify-content:center;
   align-items: center;
@@ -218,17 +219,13 @@ section.landing .socials a:hover{
   background-color: var(--color-success);
 }
 
-section.landing.info h1{
+section.landing .info h1{
   text-align: left;
-  margin: 0;
+  
 }
 
-section.landing.info h3{
 
-margin-top: -3rem;
-}
-
-section.landing.info p{
+section.landing .info p{
   
   width: 35rem;
 }
