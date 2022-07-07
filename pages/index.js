@@ -1,6 +1,5 @@
 /* eslint-disable jsx-a11y/alt-text */
 /* eslint-disable @next/next/no-img-element */
-
 import Head from "next/head";
 import Image from "next/image";
 import styles from "../styles/Home.module.scss";
@@ -51,7 +50,8 @@ export default function Home() {
           <section className="landing">
             <div className="container">
               <div className="socials">
-              <a href="https://facebook.com/" ><FiFacebook/></a>
+              <a href="https://facebook.com/" target="_blank" rel='noreferrer' > <FiFacebook/> </a>
+                                              {/* 要target"_blank" 要一起加上 rel='noreferrer'  */}
                 <a href="https://instagram.com"><BsInstagram/></a>
                <a href="https:github.com"><FiGithub/></a>
               </div>
@@ -93,8 +93,8 @@ export default function Home() {
       <footer className={styles.footer}>
         <a
           href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          // target="_blank"
-          // rel="noopener noreferrer"
+          target="_blank"
+          rel="noopener noreferrer"
         >
           Powered by{" "}
           <span className={styles.logo}>
