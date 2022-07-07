@@ -56,9 +56,9 @@ export default function Home() {
           <section className="landing">
             <div className="container">
               <div className="socials">
-              <a href="https://facebook.com/" ><FiFacebook/></a>
-                <a href="https://instagram.com"><BsInstagram/></a>
-               <a href="https:github.com"><FiGithub/></a>
+              <a href="https://facebook.com/" target="_blank" rel='noreferrer'><FiFacebook/></a>
+                <a href="https://instagram.com" target="_blank" rel='noreferrer'><BsInstagram/></a>
+               <a href="https:github.com" target="_blank" rel='noreferrer'><FiGithub/></a>
               </div>
 
               <div className="info">
@@ -77,18 +77,19 @@ export default function Home() {
         </div>
 
         <section className="about" id="about">
-          <h1>About</h1>
+          <h1>About Me</h1>
           <div className="container">
             <div className="image">
               <img src="./images/img_pro.png" />
             </div>
             <div className="content">
               <p>Name: Sophie Hsu</p>
-              <p>Birthday:1993/06/01 </p>
               <p>Nationality: Taiwan</p>
-              <p>Education: Tunghai University</p>
-               <p>Location: Phillipines</p>
-              <p>Language: Chinese/English/Japanese </p>
+              <p>Location: Phillipines</p>
+              <p>Language: Chinese/English</p>
+              <p>Interests: Travel/Photograph /Music </p>
+              <br/><hr/>
+             <p>-----Currently living in Phillipines, fonds of learning, recently learning front-end Developer and my goal is become a impressive front-end Developer.</p>
             </div>
           </div>
         </section>
@@ -99,17 +100,23 @@ export default function Home() {
 
       </main>
 
-      <footer className={styles.footer}>
+      {/* <footer className={styles.footer}>
         <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
           // target="_blank"
           // rel="noopener noreferrer"
         >
           Powered by{" "}
           <span className={styles.logo}>
             <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
-          </span>
+          Made by Sophie</span>
         </a>
+      </footer> */}
+
+
+
+
+      <footer className="footer">
+        <p>Made by Sophie</p>
       </footer>
     </div>
   );

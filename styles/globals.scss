@@ -184,8 +184,7 @@ section.landing{
   display: grid;
   place-items: center;
   position: relative;
-  top: 2rem;
-  padding-bottom: 12rem;
+  padding-bottom: 11rem;
  
 }
 
@@ -239,3 +238,58 @@ section.landing img{
 }
 
 /* ===============ABOUT SECTION =============*/
+
+
+section.about{
+width: auto;
+  margin-top: -100px;
+  background-color:rgb(179, 176, 174);
+  place-items: center;
+ height: 500px;
+
+
+}
+
+section.about.about h1{
+color: #f4f4f4;
+margin-top: -150px;
+
+  }
+
+section.about img{
+float:left;
+width: 50%;
+margin-right: 10px;
+max-width: 100%;
+}
+
+section.about content{
+float:right;
+width: 50%;
+}
+
+section.about p{
+ color:#f4f4f4;
+  }
+
+
+
+
+
+
+  /* ===============ABOUT FOOTER =============*/
+  .footer {
+    display: flex;
+    flex: 1;
+    padding: 2rem 0;
+    border-top: 1px solid #eaeaea;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .footer p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+  }
