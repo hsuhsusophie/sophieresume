@@ -74,9 +74,9 @@ h4{
   font-size: 1.2rem;
 }
 
-h5{
-  font-size: 0.86rem;
-}
+// h5{
+//   font-size: 0.86rem;
+// }
 
 p{
   line-height: 1.8;
@@ -184,14 +184,14 @@ section.landing{
   display: grid;
   place-items: center;
   position: relative;
-  padding-bottom: 11rem;
+  padding-bottom: 18rem;
  
 }
 
 section.landing .container{
   display: grid;
   grid-template-columns: 2rem auto 28rem;
-  gap: 3rem;
+  gap: 5rem;
 }
 
 section.landing .socials {
@@ -241,41 +241,65 @@ section.landing img{
 
 
 section.about{
-width: auto;
-  margin-top: -100px;
+  width: auto;
   background-color:rgb(179, 176, 174);
-  place-items: center;
- height: 500px;
+  height: 333px;
+  display: flex;
+  overflow: visible;
+  position: relative;
 
 
 }
 
-section.about.about h1{
+section.about h1{
 color: #f4f4f4;
-margin-top: -150px;
+margin-left: -100px;
+font-weight: 300;
 
-  }
+
+}
+
 
 section.about img{
-float:left;
-width: 50%;
-margin-right: 10px;
-max-width: 100%;
+margin-top: -150px;
+margin-left: -100px;
+height: 333px;
+padding: auto;
+
 }
 
-section.about content{
-float:right;
-width: 50%;
-}
 
-section.about p{
+.container h5{
+ 
  color:#f4f4f4;
-  }
+ margin-top: -150px; 
+font-size: 20px;
+font-weight: 300;
+padding: 0px;
+ }
 
 
+.aboutmore{
+  width: 960px;
+  height: 200px;
+  display: flex;
+  overflow: visible;
+  position: relative;
+  margin-right: center;
+
+ }
+
+ .aboutmore .wrap{
+  width: 300px;
+  margin-top: -100px;
+  padding: 20px;
+  height: 200px;
+  display: flex;
+  background-color: white;
+ }
 
 
-
+ 
 
   /* ===============ABOUT FOOTER =============*/
   .footer {
@@ -295,8 +319,4 @@ section.about p{
   }
 
 
-
-  @media screen and (max-width: 920px){
-
-}
-
+ 
