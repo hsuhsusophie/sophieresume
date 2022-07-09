@@ -3,15 +3,33 @@
 import Head from "next/head";
 import Image from "next/image";
 import styles from "../styles/Home.module.scss";
-import { FiFacebook } from "react-icons/fi";
+import { FiFacebook, FiGithub } from "react-icons/fi";
 import { BsInstagram } from "react-icons/bs";
-import { FiGithub } from "react-icons/fi";
 import { HiMenu } from "react-icons/hi";
+import React from "react";
 
 
 // import {IoCloseSharp, } from "react-icons/io"
 
-export default function Home() {
+
+
+class Home extends React.Component {
+
+  constructor(props) {
+    super(props);
+    this.state = {
+      test:""
+    }
+
+  }
+
+  onClickTest = () => {
+    
+  }
+
+
+render (){
+  const {} = this.state
   return (
     <div className={styles.container}>
       <Head>
@@ -31,7 +49,8 @@ export default function Home() {
                   <a href="#">Home</a>
                 </li>
                 <li>
-                  <a href="#About">About</a>
+                  <a href="#About" onClick={this.onClickTest} >About</a>  
+                  {/* onclick之後會跑過去 onClickTest這個功能 */}
                 </li>
                 <li>
                   <a href="#Experience">Experience</a>
@@ -145,3 +164,6 @@ export default function Home() {
     </div>
   );
 }
+}
+
+export default Home;
