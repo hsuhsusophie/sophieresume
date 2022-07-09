@@ -8,6 +8,8 @@ import { FiFacebook } from "react-icons/fi";
 import { BsInstagram } from "react-icons/bs";
 import { FiGithub } from "react-icons/fi";
 import { HiMenu } from "react-icons/hi";
+
+
 // import {IoCloseSharp, } from "react-icons/io"
 
 export default function Home() {
@@ -34,9 +36,6 @@ export default function Home() {
                 </li>
                 <li>
                   <a href="#Experience">Experience</a>
-                </li>
-                <li>
-                  <a href="#portfolio">Portfolio</a>
                 </li>
                 <li>
                   <a href="#contact">Contact</a>
@@ -119,7 +118,7 @@ export default function Home() {
             <p>Always having strong desire to do or to achieve succrss.</p>
           </div>
           <div className="wrap">
-            <h2>Challenge</h2>
+          <h2>Challenge</h2>
             <p>Never be afraid to Challenge myself.</p>
           </div>
           <div className="wrap">
