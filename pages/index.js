@@ -1,18 +1,34 @@
 /* eslint-disable jsx-a11y/alt-text */
 /* eslint-disable @next/next/no-img-element */
-
 import Head from "next/head";
-import Image from "next/image";
 import styles from "../styles/Home.module.scss";
-import { FiFacebook } from "react-icons/fi";
+import { FiFacebook, FiGithub } from "react-icons/fi";
 import { BsInstagram } from "react-icons/bs";
-import { FiGithub } from "react-icons/fi";
 import { HiMenu } from "react-icons/hi";
+import React from "react";
 
 
 // import {IoCloseSharp, } from "react-icons/io"
 
-export default function Home() {
+
+
+class Home extends React.Component {
+
+  constructor(props) {
+    super(props);
+    this.state = {
+      test:""
+    }
+
+  }
+
+  onClickTest = () => {
+    
+  }
+
+
+render (){
+  const {} = this.state
   return (
     <div className={styles.container}>
       <Head>
@@ -32,18 +48,19 @@ export default function Home() {
                   <a href="#">Home</a>
                 </li>
                 <li>
-                  <a href="#About">About</a>
+                  <a href="#About" onClick={this.onClickTest} >About</a>  
+                  {/* onclick之後會跑過去 onClickTest這個功能 */}
                 </li>
                 <li>
-                  <a href="#Experience">Experience</a>
+                  <a href="#Experience" onClick={this.onClickTest}>Experience</a>
                 </li>
                 <li>
-                  <a href="#contact">Contact</a>
+                  <a href="#contact" onClick={this.onClickTest}>Contact</a>
                 </li>
               </ul>
 
               <button>
-                <HiMenu />
+                <HiMenu/>
               </button>
             </div>
           </nav>
@@ -71,37 +88,37 @@ export default function Home() {
               </div>
 
               <div className="info">
-                <h1>Jr.Front-end Web Developer and Traveler</h1>
+                <h1>Junior Front-End Web Developer</h1>
                 <p>
-                  I'm a Junior Web Designer and Adventurous Traveler from
+                  I am a Junior Web Designer from
                   Taiwan. And I'm very creative and passionate at my work. It's
                   very nice to meet you.
                 </p>
               </div>
 
               <div className="circle--square">
-                <img src="./images/img_pro.png" />
+                <img src="./images/img_po.png" />
               </div>
             </div>
           </section>
         </div>
 
         <section className="about" id="about">
-          <div className="container">
+          <div className="item">
             <h1>About Me</h1>
           </div>
-          <div className="container">
+          <div className="item">
             <img src="./images/img_pro.png" />
           </div>
-          <div className="container">
+          <div className="item">
             <h5>
               Name: Sophie Hsu
               <hr />
-              Nationality: Taiwan
+              Nationality: Taiwanese
               <hr />
               Location: Phillipines
               <hr />
-              Language: Chinese/English
+              Language: Mandarin/English
               <hr />
               Interests: Travel/Photograph /Music <hr />
               <hr />
@@ -112,7 +129,7 @@ export default function Home() {
           </div>
         </section>
         <section className="aboutmore">
-          <p>my strength</p>
+         
           <div className="wrap">
             <h2>Ambition</h2>
             <p>Always having strong desire to do or to achieve succrss.</p>
@@ -146,3 +163,7 @@ export default function Home() {
     </div>
   );
 }
+}
+
+export default Home;
+
