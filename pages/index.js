@@ -39,7 +39,7 @@ render (){
       <main className={styles.main}>
         <div>
           <nav>
-            <div className="container">
+            <div className="top">
               <a href="#">
                 <h3>Sophie</h3>
               </a>
@@ -143,6 +143,7 @@ render (){
             <p>Adventure makes me feel alive!</p>
           </div>
         </section>
+        <hr></hr>
       </main>
 
       {/* <footer className={styles.footer}>
