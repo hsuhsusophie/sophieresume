@@ -3,7 +3,7 @@
 import Head from "next/head";
 import styles from "../styles/Home.module.scss";
 import { FiFacebook, FiGithub } from "react-icons/fi";
-import { BsInstagram } from "react-icons/bs";
+import { BsBootstrap, BsInstagram } from "react-icons/bs";
 import { HiMenu } from "react-icons/hi";
 import React from "react";
 
@@ -52,7 +52,7 @@ render (){
                   {/* onclick之後會跑過去 onClickTest這個功能 */}
                 </li>
                 <li>
-                  <a href="#Experience" onClick={this.onClickTest}>Experience</a>
+                  <a href="#Skills" onClick={this.onClickTest}>Skills</a>
                 </li>
                 <li>
                   <a href="#contact" onClick={this.onClickTest}>Contact</a>
@@ -108,7 +108,7 @@ render (){
             <h1>About Me</h1>
           </div>
           <div className="item">
-            <img src="./images/img_pro.png" />
+            <img src="./images/img_about.png" />
           </div>
           <div className="item">
             <h5>
@@ -143,7 +143,29 @@ render (){
             <p>Adventure makes me feel alive!</p>
           </div>
         </section>
-        <hr></hr>
+        
+<section className="skills">
+  <div class="row"></div>
+<p>HTML</p>
+<p>CSS</p> <p>SCSS</p>
+<p>Javescript</p>
+<p>Bootstrap</p>
+<p>RWD</p>
+  <div class="row"></div>
+  <h2>Skills</h2>
+  <div class="row"></div>
+ <p>Jquery</p>
+ <p>github</p>
+ <p>React</p>
+<p>Node.Js</p>
+<p>Webpacker</p>
+
+</section>
+
+
+
+
+
       </main>
 
       {/* <footer className={styles.footer}>
