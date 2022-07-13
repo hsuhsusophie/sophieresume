@@ -278,10 +278,11 @@ padding: auto;
 .item h5{
  
  color:#f4f4f4;
- margin-top: -150px; 
+ margin: -150px auto; 
 font-size: 20px;
 font-weight: 300;
 padding: 0px;
+line-height: 2rem;
  }
 
 
@@ -295,7 +296,7 @@ padding: 0px;
  }
 
  .aboutmore .wrap{
-  width: 330px;
+  width: 100%;
   margin-top: -100px;
   margin-left: auto;
   margin-right: auto;
@@ -313,13 +314,18 @@ padding: 0px;
  }
  /* ===============SKILLS SECTION =============*/
  section.skills{
-   width: 30% 30% 30%;
-   background-color: red;
+   width: 100%;
+   background-color:rgb(179, 176, 174);
    display: flex;
-   margin: 10px;
+   padding-bottom: 12rem;
+   margin-left: auto;
+   margin-right: auto;
  }
 
+.row{
+  width: 30%;
 
+}
 
 
   /* ===============ABOUT FOOTER =============*/

@@ -3,10 +3,9 @@
 import Head from "next/head";
 import styles from "../styles/Home.module.scss";
 import { FiFacebook, FiGithub } from "react-icons/fi";
-import { BsBootstrap, BsInstagram } from "react-icons/bs";
+import {  BsInstagram } from "react-icons/bs";
 import { HiMenu } from "react-icons/hi";
 import React from "react";
-
 
 // import {IoCloseSharp, } from "react-icons/io"
 
@@ -21,12 +20,12 @@ class Home extends React.Component {
     }
 
   }
-
   onClickTest = () => {
     
   }
 
 
+  
 render (){
   const {} = this.state
   return (
@@ -144,7 +143,7 @@ render (){
           </div>
         </section>
         
-<section className="skills">
+<section className="skills" id="skills">
   <div class="row"></div>
 <p>HTML</p>
 <p>CSS</p> <p>SCSS</p>
