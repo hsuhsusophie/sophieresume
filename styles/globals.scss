@@ -121,6 +121,8 @@ img{
 box-shadow: 0 2rem 2rem var(--color-primary-light);
 }
 
+// SCSS寫法 
+
 nav{
   width: 95%;
   height: 6rem;
@@ -131,57 +133,104 @@ nav{
   top:0;
   z-index: 2;
   border-bottom: 1px solid var(--color-light);
+  .top{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin:auto;
+    align-items:center;
+    height: 100%;
+    ul{
+      position: relative;
+      max-width: auto;
+      display: flex;
+      height: 100%;
+      li{
+        a{
+
+          height: 100%;
+          width: 10rem;
+          font-size: 25px;
+          display: flex;
+          background: rgb(179, 176, 174);
+          justify-content: center;
+          align-items: center;
+          color: var(--color-white);
+          position: relative;
+          transition: var(--transition);
+          & :hover {
+            
+              background-color: var(--color-success);
+              transition: 0.5s;
+            
+          }
+
+        }
+      }
+    }
+
+  }
+
+  button{
+    display: none;
+  }
+
+  h3{
+    color: #f4f4f4;
+    position: sticky;
+    margin:auto;
+  }
 
 
 }
 
-nav .top{
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-  margin:auto;
-  align-items:center;
-  height: 100%;
-}
+// nav .top{
+//   width: 100%;
+//   display: flex;
+//   justify-content: space-between;
+//   margin:auto;
+//   align-items:center;
+//   height: 100%;
+// }
 
-nav button{
-  display: none;
-}
+// nav button{
+//   display: none;
+// }
 
-nav h3{
-  color: #f4f4f4;
-  position: sticky;
-  margin:auto;
-}
-
-
-nav .top ul{
-  position: relative;
-  max-width: auto;
-  display: flex;
-  height: 100%;
-}
+// nav h3{
+//   color: #f4f4f4;
+//   position: sticky;
+//   margin:auto;
+// }
 
 
-
-nav .top ul li a{
-  height: 100%;
-  width: 10rem;
-  font-size: 25px;
-  display: flex;
-  background: rgb(179, 176, 174);
-  justify-content: center;
-  align-items: center;
-  color: var(--color-white);
-  position: relative;
-  transition: var(--transition);
-}
+// nav .top ul{
+//   position: relative;
+//   max-width: auto;
+//   display: flex;
+//   height: 100%;
+// }
 
 
-nav .top ul li a:hover{
-  background-color: var(--color-success);
-  transition: 0.5s;
-}
+
+// nav .top ul li a{
+//   height: 100%;
+//   width: 10rem;
+//   font-size: 25px;
+//   display: flex;
+//   background: rgb(179, 176, 174);
+//   justify-content: center;
+//   align-items: center;
+//   color: var(--color-white);
+//   position: relative;
+//   transition: var(--transition);
+// }
+
+
+// nav .top ul li a:hover{
+//   background-color: var(--color-success);
+//   transition: 0.5s;
+// }
 
 
 /* ===============LANDING SECTION =============*/
