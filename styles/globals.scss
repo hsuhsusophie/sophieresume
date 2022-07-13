@@ -453,3 +453,10 @@ line-height: 2rem;
 
     
   
+
+
+.indexALL{
+  height: 100vh;
+  display: grid;
+  grid-template-rows: 20% 60% 20%;
+}
