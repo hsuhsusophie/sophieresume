@@ -105,7 +105,7 @@ img {
 // SCSS寫法 
 
 nav{
-  width: 95%;
+  width: 100%;
   height: 6rem;
   background: rgb(179, 176, 174);
   align-items:center ;
@@ -115,7 +115,7 @@ nav{
   z-index: 2;
   border-bottom: 1px solid var(--color-light);
   .top{
-    width: 100%;
+    // width: 100%;
     display: flex;
     justify-content: space-between;
     margin:auto;
